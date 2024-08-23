@@ -1,0 +1,260 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-links{
+  display: flex;
+  column-gap: 20px;
+}
+.navbar-links a{
+  text-decoration: none;
+  color: #1D232C;
+}
+.navbar-links a:hover{
+  text-decoration: underline;
+  color: #1D232C;
+}
+
+.navbar-menu-toggle{
+  display: none;
+}
+
+@media screen and (max-width:600px) {
+  .navbar-menu-toggle{
+    display: block;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .service-container-2{
+    flex-direction: column;
+  }
+}
+
+
+.side-navbar{
+  background-color: #1D232C;
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -60%;
+  padding: 20px;
+  color: white;
+  transition: 1s;
+}
+
+.side-navbar-links a{
+  color: white;
+  text-decoration: none;
+}
+
+.side-navbar-link{
+  margin-bottom: 25px;
+}
+
+.side-navbar-links a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+  background-color:rgb(217, 213, 220);
+  margin-bottom: -10px;
+}
+
+.shop-btn{
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #1D232C;
+  border: none;
+  color: white;
+}
+
+.service{
+ padding: 20px;
+}
+
+.service-container-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.service-container-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.service-container-2 div{
+  background-color: #F2F4F7;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.new-arrivals,.most-wanted{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+
+.new-arrivals-container,.new-arrivals-containers{
+  position: relative;
+  flex-basis: 18%;
+  margin-left: 25px;
+}
+
+.new-arrivals-container img,.new-arrivals-containers img{
+  border-radius: 10px;
+}
+
+.new-arrivals-container button,.new-arrivals-containers button{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #1D232C;
+  background-color: white;
+  border: none;
+  border-radius:7px;
+  position: absolute;
+  left:47px;
+  top: 77px;
+  cursor: pointer;
+}
+
+.news-letter{
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+.inp{
+  margin-top: 10px;
+  font-size: 18px;
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border:2px solid black;
+}
+
+.sub-btn{
+  background-color: #1D232C;
+  color: #F2F4F7;
+  padding: 10px;
+  border:none;
+  border-radius: 5px;
+}
+
+.footer{
+  height: 100%;
+  background-color: #1D232C;
+  color:#F2F4F7;
+  padding: 20px;
+}
+
+.footer p{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.footer a{
+  color: #F2F4F7;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+  color: #F2F4F7;
+}
+
+.products{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  row-gap: 20px;
+  text-align: center;
+}
+
+#inp{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 95%;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+.collection-container{
+  margin-bottom: 25px;
+}
+
+.products img{
+  border-radius: 10px;
+}
+
+
+.service-container-2 div:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-container{
+  margin-top: 20px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container{
+  background-color: #1D232C;
+  padding-left: 30px;
+  padding-right: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 7px;
+}
+
+.container div input{
+  padding: 10px;
+  font-size: 18px;
+}
+
+.container .bb{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+
+
